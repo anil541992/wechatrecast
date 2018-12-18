@@ -10,9 +10,7 @@ app.get('/', function(req, res){
     var qs = require('querystring');
    res.send("Hello World");
 });
-var express = require('express');
-var routesEngine = require('./index.js'); 
-var app = express();
+
 routesEngine(app);
 
 var request = require('request');
