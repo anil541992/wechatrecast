@@ -5,9 +5,9 @@
   "engines": {
     "node": "8.9.1"
   },
-  "main": "server.js",
+  "main": "local.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node local.js"
   },
   "dependencies": {
     "ejs": "^2.5.7",
